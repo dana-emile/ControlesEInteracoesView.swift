@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct ComponentesInterativosView: View {
-    // 1. Estados que controlam a interação dos botões e seletores
+    // Estados que controlam a interação dos botões e seletores
     @State private var estaAtivo: Bool = false
     @State private var quantidade: Int = 1
     @State private var progresso: Double = 30.0
@@ -57,7 +57,6 @@ struct ComponentesInterativosView: View {
     }
 }
 
-// 2. A MACRO DE PREVIEW: É isso que faz o Xcode mostrar a tela viva ao lado
 #Preview {
     ComponentesInterativosView()
 }
